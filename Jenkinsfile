@@ -7,5 +7,17 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        sh 'sh "javac main.java"'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'sh "java main"'
+      }
+    }
+
   }
 }

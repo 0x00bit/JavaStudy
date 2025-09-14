@@ -15,7 +15,7 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'sh "java main"'
+        sh 'java main'
       }
     }
 

@@ -5,16 +5,16 @@ public class main{
         String message = "Hello, " + name + " your age is " + getAge() + "! The average is: " + average;
         System.out.println(message);
     }
-}
 
-public class getName(){
-    return "Steve";
-}
+    public static int calculate(int a, int b) {
+        return (a + b) / 2;
+    }
 
-public class getAge(){
-    return 30;
-}
+    public static String getName() {
+        return "Steve";
+    }
 
-public class calculate(int a, int b){
-    return (a + b)/2;
+    public static int getAge() {
+        return 30;
+    }
 }
